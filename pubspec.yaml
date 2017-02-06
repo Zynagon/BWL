@@ -1,0 +1,6 @@
+name: BierWirtschaftsLehre
+version: 0.0.1
+author: Florian Loehden
+description: The WebApp to display the BWL Chart
+dependencies:
+  browser: "any"
