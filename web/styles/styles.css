@@ -14,6 +14,11 @@
         color: white;
     }
 
+    #hopfendiagram{
+        width: auto;
+        height: auto;
+    }
+
     #hopfen{
         width: 33%;
         height: 25em;
