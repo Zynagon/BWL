@@ -12,6 +12,7 @@
 
     h3{
         color: white;
+        display: inline;
     }
 
     #hopfendiagram{
@@ -99,6 +100,45 @@
         width: 12.5%;
         text-align: right;
         padding-right: 1em;
+    }
+
+    .categories{
+        width: 100%;
+        align-content: center;
+    }
+
+    #add{
+        align-self: center;
+    }
+
+    input{
+        font-size: 1vm;
+        color: #FFFFFF;
+        font-size: 12px;
+        border: 3px double antiquewhite;
+        background-color: #5F5F5F;
+        padding: 3px;
+        margin-bottom: 15px;
+        height: 30px;
+        width: 20%;
+    }
+
+    button{
+        font-size: 1vw;
+        font-family: 'Arcade Normal', arial;
+        text-align: center;
+        cursor: pointer;
+        color: antiquewhite;
+        border: 3px solid antiquewhite;
+        padding: 4px 8px;
+        background-color: black;
+        border-radius: 5px;
+        width: 10%;
+    }
+
+    button:hover{
+        background-color: antiquewhite;
+        color: black;
     }
 }
 

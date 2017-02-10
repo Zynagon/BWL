@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Admin / Insert</title>
+    <link href="styles/styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Getränke</h1>
     <div id="categories">
-        <div id="hopfen">
-
+        <div id="dhopfen">
+            <h2>Hopfen Markt</h2>
+            <span class="add">
+                <input id="ihopfen" type="text">
+                <button id="bthopfen">Add Drink</button><br/>
+            </span>
+            <span id="shopfen"></span>
         </div>
-        <div id="misch">
-
+        <div id="dmisch">
+            <h2>Misch Markt</h2>
+            <span class="add">
+                <input id="imisch" type="text">
+                <button id="btmisch">Add Drink</button><br/>
+            </span>
+            <span id="smisch"></span>
         </div>
-        <div id="hoch">
-
+        <div id="dhoch">
+            <h2>Hochrisiko Markt</h2>
+            <span class="add">
+                <input id="ihoch" type="text">
+                <button id="bthoch">Add Drink</button><br/>
+            </span>
+            <span id="shoch"></span>
         </div>
-        <div id="hilf">
-
+        <div id="dhilf">
+            <h2>Misch Markt</h2>
+            <span class="add">
+                <input id="ihilf" type="text">
+                <button id="bthilf">Add Drink</button><br/>
+            </span>
+            <span id="shilf"></span>
         </div>
     </div>
-
+    <button id="btsend">Send</button>
     <script type="application/dart" src="admin.dart"></script>
     <script src="packages/browser/dart.js"></script>
 </body>

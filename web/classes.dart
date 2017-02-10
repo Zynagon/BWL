@@ -8,6 +8,7 @@ class Getraenk{
   String get Bezeichnung => _bezeichnung;
   void set Bezeichnung(String b){this._bezeichnung = b;}
   double get Preis => _preis;
+  void setPreis(double p){this._preis=p;}
   void set Preis(double p){this._preis=p;}
 }
 
@@ -19,6 +20,7 @@ class Kategorie{
   String get Bezeichnung => _bezeichnung;
   void set Bezeichnung(String b){this._bezeichnung = b;}
   void addGetraenk(Getraenk g){this._getraenke.add(g);}
+  List<Getraenk> get Getraenke => _getraenke;
 }
 
 class Markt{
